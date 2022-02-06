@@ -33,10 +33,10 @@ def get_random_vars(varlist, num):
 
 
 def get_random_int():
-    # With a 60% chance, returns 0-1000
+    # With a 60% chance, returns 0-500
     # With a 40% chance, returns INT.Min - INT.Max
     if randint(0, 100) < 60:
-        return randint(0, 1000)
+        return randint(0, 500)
     else:
         return randint(-2147483648, 2147483647)
 
